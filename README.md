@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# React Theme Changer
+<img src="https://github.com/sonimohit481/React-theme-changer/blob/main/public/Banner1.png" alt="Banner1" width="600" >
+<img src="https://github.com/sonimohit481/React-theme-changer/blob/main/public/Banner2.png" alt="Banner2" width="600" >
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a simple React application that demonstrates the implementation of a theme changer using React Context API. The project showcases different methods to implement and utilize the Context API, allowing users to toggle between themes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
 
-## Expanding the ESLint configuration
+The project is deployed and accessible through the following link:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[React Theme Changer](https://theme-toggler-01.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Toggle between different themes
+- Learn and understand the implementation of React Context API
+- Explore various approaches to integrating context in a React application
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sonimohit481/React-theme-changer.git
+   cd React-theme-changer
+   npm install
+   npm start
+   ```
+
+## Technologies Used
+- React
+- React Context API
+
+## Acknowledgements
+This project was created as part of a learning experience to understand and implement the React Context API.
+
+
